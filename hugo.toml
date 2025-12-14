@@ -1,0 +1,4 @@
+baseURL = 'https://nkonangi.github.io/ai-learning-journey/'
+languageCode = 'en-us'
+title = 'Narasimha Konangi's Site'
+theme = "PaperMod"
