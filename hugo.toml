@@ -2,3 +2,25 @@ baseURL = 'https://nkonangi.github.io/ai-learning-journey/'
 languageCode = 'en-us'
 title = 'Narasimha Konangi Site'
 theme = "PaperMod"
+# hugo.toml configuration example
+
+[menu]
+  [[menu.main]]
+    name = "Math"
+    url = "/math/"
+    weight = 10 # Matches the weight in the _index.md
+  
+  [[menu.main]]
+    name = "Statistics"
+    url = "/statistics/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "Programming"
+    url = "/coding/"
+    weight = 30
+    
+  [[menu.main]]
+    name = "ML Algorithms"
+    url = "/ml-algorithms/"
+    weight = 40
