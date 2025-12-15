@@ -1,18 +1,43 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Narasimha Konangi Site</title>
+    <title>My AI/ML Learning Journey &amp; Journal</title>
     <link>http://localhost:1313/ai-learning-journey/</link>
-    <description>Recent content on Narasimha Konangi Site</description>
+    <description>Recent content on My AI/ML Learning Journey &amp; Journal</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 15:24:07 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ai-learning-journey/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lesson 1: Introduction to Vectors and Matrices</title>
+      <link>http://localhost:1313/ai-learning-journey/math/linear-algebra/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/math/linear-algebra/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-vector&#34;&gt;What is a Vector?&lt;/h2&gt;
+&lt;p&gt;A vector in machine learning is typically an array of numbers that represent a point in a high-dimensional space. For example, a feature set of a house (size, age, location score) could be represented as a vector $v = (1500, 10, 0.9)$.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-matrix&#34;&gt;What is a Matrix?&lt;/h2&gt;
+&lt;p&gt;A matrix is a collection of vectors, often used to store datasets. If we have 100 houses, our data would be a matrix of size $100 \times 3$.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Linux Commands for AI</title>
       <link>http://localhost:1313/ai-learning-journey/coding/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ai-learning-journey/coding/linux/</guid>
+      <description>&lt;p&gt;Welcome to my Linux section! I&amp;rsquo;ll be documenting my journey through the basic Linux commands to get familiar with Linux CLI here.&lt;/p&gt;
+&lt;p&gt;Mastering the Linux command line (CLI) is a superpower for developers. It allows you to automate tasks, manage servers, and debug issues faster than any graphical interface.&lt;/p&gt;
+&lt;p&gt;Here is a curated list of commands essential for a professional workflow, organized by use case.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigation &amp;amp; File ManagementYou likely know &lt;code&gt;cd&lt;/code&gt; and &lt;code&gt;ls&lt;/code&gt;, but professional environments require efficiency and precision.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ls -lah&lt;/code&gt;: The gold standard for listing files.-l: List in long format (permissions, owner, size).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Basics for AI</title>
+      <link>http://localhost:1313/ai-learning-journey/coding/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/coding/python/</guid>
       <description>My foundational learning in Coding starting with Linux Commands, Python, Py Packages for AI ML.</description>
     </item>
     <item>

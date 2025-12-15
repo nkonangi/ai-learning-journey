@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Coding for AI on Narasimha Konangi Site</title>
+    <title>Coding for AI on My AI/ML Learning Journey &amp; Journal</title>
     <link>http://localhost:1313/ai-learning-journey/coding/</link>
-    <description>Recent content in Coding for AI on Narasimha Konangi Site</description>
+    <description>Recent content in Coding for AI on My AI/ML Learning Journey &amp; Journal</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/ai-learning-journey/coding/index.xml" rel="self" type="application/rss+xml" />
@@ -12,6 +12,21 @@
       <link>http://localhost:1313/ai-learning-journey/coding/linux/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/ai-learning-journey/coding/linux/</guid>
+      <description>&lt;p&gt;Welcome to my Linux section! I&amp;rsquo;ll be documenting my journey through the basic Linux commands to get familiar with Linux CLI here.&lt;/p&gt;
+&lt;p&gt;Mastering the Linux command line (CLI) is a superpower for developers. It allows you to automate tasks, manage servers, and debug issues faster than any graphical interface.&lt;/p&gt;
+&lt;p&gt;Here is a curated list of commands essential for a professional workflow, organized by use case.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Navigation &amp;amp; File ManagementYou likely know &lt;code&gt;cd&lt;/code&gt; and &lt;code&gt;ls&lt;/code&gt;, but professional environments require efficiency and precision.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;ls -lah&lt;/code&gt;: The gold standard for listing files.-l: List in long format (permissions, owner, size).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Python Basics for AI</title>
+      <link>http://localhost:1313/ai-learning-journey/coding/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/coding/python/</guid>
       <description>My foundational learning in Coding starting with Linux Commands, Python, Py Packages for AI ML.</description>
     </item>
   </channel>

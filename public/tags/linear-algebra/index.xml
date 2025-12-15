@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mathematics for AI on My AI/ML Learning Journey &amp; Journal</title>
-    <link>http://localhost:1313/ai-learning-journey/math/</link>
-    <description>Recent content in Mathematics for AI on My AI/ML Learning Journey &amp; Journal</description>
+    <title>Linear-Algebra on My AI/ML Learning Journey &amp; Journal</title>
+    <link>http://localhost:1313/ai-learning-journey/tags/linear-algebra/</link>
+    <description>Recent content in Linear-Algebra on My AI/ML Learning Journey &amp; Journal</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ai-learning-journey/math/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ai-learning-journey/tags/linear-algebra/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lesson 1: Introduction to Vectors and Matrices</title>
       <link>http://localhost:1313/ai-learning-journey/math/linear-algebra/</link>

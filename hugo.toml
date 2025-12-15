@@ -1,6 +1,6 @@
 baseURL = 'https://nkonangi.github.io/ai-learning-journey/'
 languageCode = 'en-us'
-title = 'Narasimha Konangi Site'
+title = 'My AI/ML Learning Journey & Journal'
 theme = "PaperMod"
 # hugo.toml configuration example
 

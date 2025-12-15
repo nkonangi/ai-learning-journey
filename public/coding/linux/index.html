@@ -5,9 +5,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Linux Commands for AI | Narasimha Konangi Site</title>
+<title>Linux Commands for AI | My AI/ML Learning Journey &amp; Journal</title>
 <meta name="keywords" content="">
-<meta name="description" content="My foundational learning in Coding starting with Linux Commands, Python, Py Packages for AI ML.">
+<meta name="description" content="Welcome to my Linux section! I&rsquo;ll be documenting my journey through the basic Linux commands to get familiar with Linux CLI here.
+Mastering the Linux command line (CLI) is a superpower for developers. It allows you to automate tasks, manage servers, and debug issues faster than any graphical interface.
+Here is a curated list of commands essential for a professional workflow, organized by use case.
+
+Navigation &amp; File ManagementYou likely know cd and ls, but professional environments require efficiency and precision.
+
+
+
+ls -lah: The gold standard for listing files.-l: List in long format (permissions, owner, size).">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/ai-learning-journey/coding/linux/">
 <link crossorigin="anonymous" href="/ai-learning-journey/assets/css/stylesheet.343cc480b9ffc8f04ccbe5e968ad674880cab773ec19905e93033065c1e7a804.css" integrity="sha256-NDzEgLn/yPBMy&#43;XpaK1nSIDKt3PsGZBekwMwZcHnqAQ=" rel="preload stylesheet" as="style">
@@ -76,7 +84,7 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/ai-learning-journey/" accesskey="h" title="Narasimha Konangi Site (Alt + H)">Narasimha Konangi Site</a>
+            <a href="http://localhost:1313/ai-learning-journey/" accesskey="h" title="My AI/ML Learning Journey &amp; Journal (Alt + H)">My AI/ML Learning Journey &amp; Journal</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -132,14 +140,40 @@
     <h1 class="post-title entry-hint-parent">
       Linux Commands for AI
     </h1>
-    <div class="post-description">
-      My foundational learning in Coding starting with Linux Commands, Python, Py Packages for AI ML.
-    </div>
     <div class="post-meta">
 
 </div>
   </header> 
   <div class="post-content"><p>Welcome to my Linux section! I&rsquo;ll be documenting my journey through the basic Linux commands to get familiar with Linux CLI here.</p>
+<p>Mastering the Linux command line (CLI) is a superpower for developers. It allows you to automate tasks, manage servers, and debug issues faster than any graphical interface.</p>
+<p>Here is a curated list of commands essential for a professional workflow, organized by use case.</p>
+<ol>
+<li>Navigation &amp; File ManagementYou likely know <code>cd</code> and <code>ls</code>, but professional environments require efficiency and precision.</li>
+</ol>
+<ul>
+<li>
+<p><code>ls -lah</code>: The gold standard for listing files.-l: List in long format (permissions, owner, size).</p>
+</li>
+<li>
+<p><code>-a</code>: Show all files (including hidden .env or .git files).</p>
+</li>
+<li>
+<p><code>-h</code>: Human-readable sizes (KB, MB, GB instead of bytes).</p>
+</li>
+<li>
+<p><code>pwd</code>: Print Working Directory. Essential when scripting or copying paths.</p>
+</li>
+<li>
+<p><code>cp -r source/ destination/</code>: Copies directories recursively. Without <code>-r</code>, <code>cp</code> fails on folders.</p>
+</li>
+<li>
+<p><code>rm -rf foldername/</code>: Force removes a directory and its contents.</p>
+</li>
+<li>
+<p>Warning: Be extremely careful with rm -rf. There is no &ldquo;Trash Bin&rdquo; in the CLI. Once it&rsquo;s gone, it&rsquo;s gone.ln -s /path/to/original /path/to/link: Creates a symbolic link (symlink). This is crucial for server management (e.g., pointing a web server to the current version of your app).2. Searching &amp; FindingAs a developer, you will often need to find a specific file or a specific line of code within a massive codebase.grep -r &ldquo;string&rdquo; .: Search for a &ldquo;string&rdquo; recursively inside the current directory (.).Pro Tip: Use grep -rn &ldquo;string&rdquo; . to include line numbers.find . -name &ldquo;*.log&rdquo;: Find files by name. This example finds all log files in the current folder and subfolders.history | grep &ldquo;docker&rdquo;: Searching your own history. If you typed a complex Docker command yesterday and forgot it, this will find it.3. Monitoring &amp; Debugging LogsBackend development often involves staring at server logs to see why an API failed.tail -f error.log: Follows the end of a file in real-time. As new lines are written to the log, they appear on your screen instantly.cat file.txt: Dumps the whole file to the screen. Good for small config files.less file.txt: The professional alternative to cat for large files. It lets you scroll through a 2GB log file without crashing your terminal. (Press q to exit).4. Process ManagementWhen your server is slow or an application crashes, you need to investigate the running processes.ps aux: Lists all running processes.Usage: Often combined with grep: ps aux | grep node (Show me only running Node.js processes).top or htop: Shows a real-time dashboard of CPU and Memory usage.Note: htop is more colorful and user-friendly, but top is installed on almost every Linux machine by default.kill [PID]: Stops a process using its Process ID (PID).kill -9 [PID]: The &ldquo;nuclear option.&rdquo; Force kills the process immediately if the standard kill doesn&rsquo;t work.5. Permissions&quot;Permission Denied&quot; is the most common error you will face.chmod +x script.sh: Makes a file executable. Essential for running shell scripts.chmod 755 foldername: Sets standard permissions (Owner can write; everyone else can read/execute).chown user:group file: Changes the ownership of a file.Scenario: You uploaded a file as root but your web server runs as www-data. You must chown the file so the server can read it.sudo !!: A magical shortcut. If you type a command and it fails because you forgot sudo, typing this repeats the last command with sudo.6. NetworkingEssential for testing APIs and connectivity.ping google.com: Checks if your server has internet access or can reach another server.curl -I <a href="https://api.example.com">https://api.example.com</a>: Fetches the HTTP headers only. Great for checking if a site is up or checking caching headers.curl -X POST -d &lsquo;{&ldquo;key&rdquo;:&ldquo;value&rdquo;}&rsquo; http://localhost:3000: specific testing of API endpoints directly from the terminal.ssh user@ip-address: Secure Shell. The standard way to log into remote servers.7. The Power of Piping (|)The true philosophy of Linux is creating small tools that do one thing well, and connecting them.The pipe | takes the output of the command on the left and makes it the input of the command on the right.Example Scenario:You want to see how many &ldquo;Error&rdquo; lines are in your log file.cat app.log (Read the file)grep &ldquo;Error&rdquo; (Filter only lines with &ldquo;Error&rdquo;)wc -l (Word Count - lines)The Command:Bashcat app.log | grep &ldquo;Error&rdquo; | wc -l
+Summary Table: The &ldquo;Daily Driver&rdquo; CheatsheetCategoryCommandUse CaseNavls -lahSee everything, with file sizes.Searchgrep -r &ldquo;text&rdquo; .Find text inside files recursively.Logstail -f log.txtWatch logs happen in real-time.SystemhtopSee what is eating your CPU.Netcurl -I urlCheck if a website is up.Safetyman [command]Open the manual for a command.</p>
+</li>
+</ul>
 
 
   </div>
@@ -152,7 +186,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="http://localhost:1313/ai-learning-journey/">Narasimha Konangi Site</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/ai-learning-journey/">My AI/ML Learning Journey &amp; Journal</a></span> · 
 
     <span>
         Powered by
