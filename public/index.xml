@@ -9,14 +9,18 @@
     <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/ai-learning-journey/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Lesson 1: Introduction to Vectors and Matrices</title>
-      <link>http://localhost:1313/ai-learning-journey/math/linear-algebra/</link>
-      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ai-learning-journey/math/linear-algebra/</guid>
-      <description>&lt;h2 id=&#34;what-is-a-vector&#34;&gt;What is a Vector?&lt;/h2&gt;
-&lt;p&gt;A vector in machine learning is typically an array of numbers that represent a point in a high-dimensional space. For example, a feature set of a house (size, age, location score) could be represented as a vector $v = (1500, 10, 0.9)$.&lt;/p&gt;
-&lt;h2 id=&#34;what-is-a-matrix&#34;&gt;What is a Matrix?&lt;/h2&gt;
-&lt;p&gt;A matrix is a collection of vectors, often used to store datasets. If we have 100 houses, our data would be a matrix of size $100 \times 3$.&lt;/p&gt;</description>
+      <title>AI Basics</title>
+      <link>http://localhost:1313/ai-learning-journey/ai-basics/ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/ai-basics/ai/</guid>
+      <description>&lt;p&gt;Welcome to my AI Basics section! I&amp;rsquo;ll be documenting my journey through the AI Basics  here.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ML Basics</title>
+      <link>http://localhost:1313/ai-learning-journey/ml-algorithms/ml/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/ml-algorithms/ml/</guid>
+      <description>&lt;p&gt;Welcome to my ML Basics section! I&amp;rsquo;ll be documenting my journey through the Machine Learning Basics  here.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Linux Commands for AI</title>
@@ -41,12 +45,14 @@
       <description>My foundational learning in Coding starting with Linux Commands, Python, Py Packages for AI ML.</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/ai-learning-journey/ml-algorithms/my-first-post/</link>
-      <pubDate>Sun, 14 Dec 2025 15:24:07 -0500</pubDate>
-      <guid>http://localhost:1313/ai-learning-journey/ml-algorithms/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;narasimha-konangis-first-post&#34;&gt;Narasimha Konangi&amp;rsquo;s First Post&lt;/h2&gt;
-&lt;p&gt;** contact  &lt;a href=&#34;mailto:narasimha@konangi.com&#34;&gt;narasimha@konangi.com&lt;/a&gt; **&lt;/p&gt;</description>
+      <title>Lesson 1: Introduction to Vectors and Matrices</title>
+      <link>http://localhost:1313/ai-learning-journey/math/linear-algebra/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/math/linear-algebra/</guid>
+      <description>&lt;h2 id=&#34;what-is-a-vector&#34;&gt;What is a Vector?&lt;/h2&gt;
+&lt;p&gt;A vector in machine learning is typically an array of numbers that represent a point in a high-dimensional space. For example, a feature set of a house (size, age, location score) could be represented as a vector $v = (1500, 10, 0.9)$.&lt;/p&gt;
+&lt;h2 id=&#34;what-is-a-matrix&#34;&gt;What is a Matrix?&lt;/h2&gt;
+&lt;p&gt;A matrix is a collection of vectors, often used to store datasets. If we have 100 houses, our data would be a matrix of size $100 \times 3$.&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>

@@ -4,7 +4,7 @@ date: 2025-12-15
 draft: false
 tags: ["linear-algebra", "math-basics"]
 # The weight here can be used to order lessons within the section
-weight: 1 
+weight: 50 
 ---
 
 ## What is a Vector?

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ml-Algorithms Copies on My AI/ML Learning Journey &amp; Journal</title>
+    <link>http://localhost:1313/ai-learning-journey/ml-algorithms-copy/</link>
+    <description>Recent content in Ml-Algorithms Copies on My AI/ML Learning Journey &amp; Journal</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Dec 2025 15:24:07 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/ai-learning-journey/ml-algorithms-copy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/ai-learning-journey/ml-algorithms-copy/my-first-post/</link>
+      <pubDate>Sun, 14 Dec 2025 15:24:07 -0500</pubDate>
+      <guid>http://localhost:1313/ai-learning-journey/ml-algorithms-copy/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;narasimha-konangis-first-post&#34;&gt;Narasimha Konangi&amp;rsquo;s First Post&lt;/h2&gt;
+&lt;p&gt;** contact  &lt;a href=&#34;mailto:narasimha@konangi.com&#34;&gt;narasimha@konangi.com&lt;/a&gt; **&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
